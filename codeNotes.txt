@@ -1,0 +1,25 @@
+ === compares types as well, so 10 != '10'
+ == means that 10 == '10' 
+ same thing for !=, do !== instead
+
++'10' is the same as parseFloat('10'). probably should just use the explicit
+
+no browser supports typescript. The typescript compiles out to javascript for the browser to run on
+describe is context for a group of tests (its)
+it is a test
+behavior driven development, 'describe' this thing. 'it' can blah blah blah
+
+xdescribe - skips the describe from running
+xit skips the single test
+fit runs only that test
+
+semi-colons are optional, but omitting them can cause problems. TS lint will add them to your source code
+
+a compiler error might still generate the code, even if there is an error in the code. be careful
+
+search -> mdn search stuff
+maybe define the interface if we're using it more than once
+
+anon functions are mostly used as params to higher order functions
+
+do, for, while, but don't loop often because things are in an array, and the array has those methods built in

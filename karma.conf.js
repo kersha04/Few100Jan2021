@@ -21,8 +21,8 @@ module.exports = (config) => {
         webpack,
 
         reporters: ['progress', 'karma-typescript', 'kjhtml'],
-
-        browsers: ['ChromeHeadless'], // or just 'Chrome', 'ie', 'firefox', etc.
+        //set to Chrome which has a headless version ie does not open a browser
+        browsers: ['ChromeHeadless'], // or just 'ChromeHeadless', 'Chrome', 'ie', 'firefox', etc. can run these tests in numerous browsers in the array. 
 
 
     });
