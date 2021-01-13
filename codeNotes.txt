@@ -23,3 +23,25 @@ maybe define the interface if we're using it more than once
 anon functions are mostly used as params to higher order functions
 
 do, for, while, but don't loop often because things are in an array, and the array has those methods built in
+
+public, private, protected => public is default
+
+this is not optional in typescript. this.property grabs the class level property
+1. Modules - typescript source code files that export something
+2. Classes
+    - Constructors
+    - Fields
+    - Methods
+    - Inheritance
+    - Implementing an interface
+3. Imports aplenty. Specifies what source code needs to be compiled and sent to client
+    - dlls aren't a big deal for c#, but sending all code to a client to just say something trivial like, welcome, could potentially be a bit much, especially with slow interwebz
+        - optimization - send the minimum to the client that allows it to run
+        
+emmett - 
+div is default
+.{string} -> class
+> -> child of whatever is to the left
++ sibling of whatever is to the left
+
+

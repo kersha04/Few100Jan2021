@@ -2,3 +2,9 @@ Jeff's Repo
 https://github.com/FrontEndWeb100/few100jan2021
 npm run dev - shows the application in the browser
 npm run build - generates out the files needed to be deployed
+
+emmett.io
+.form-group>label+input.form-control
+create a div with class form-group with a child (>) of label
+
+hover then click MDN to go to documentation on mozilla
